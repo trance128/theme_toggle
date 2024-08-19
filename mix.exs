@@ -38,7 +38,8 @@ defmodule ThemeToggle.MixProject do
   defp deps do
     [
       {:phoenix, ">= 1.4.0"},
-      {:phoenix_live_view, ">= 0.18.0"}
+      {:phoenix_live_view, ">= 0.18.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
