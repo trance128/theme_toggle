@@ -34,7 +34,7 @@ end
   }
 ```
 
-2. Configure Tailwind
+3. Configure Tailwind (*assets/tailwind.config.js*)
 - add *darkMode: ["class"]* to your module.exports:
 ```
 module.exports = {
@@ -108,12 +108,12 @@ plugins: [
 
 For tailwind animate, you can either *npm i -D tailwindcss-animate* or if you don't want any npm in your modules, change the import to *require("../deps/theme_toggle/assets/js/tailwindcss-animate.js")*
 
-3. Import theme_toggle JS into your assets/app.js:
+4. Import theme_toggle JS into your assets/app.js:
 ```
 import "../../deps/theme_toggle/assets/js/theme_toggle.js"
 ```
 
-4. If you're not using Salad UI, import the salad ui css into your app.css:
+5. If you're not using Salad UI, import the salad ui css into your app.css:
 ```
 @import "../../deps/theme_toggle/assets/css/salad_ui.css";
 ... previous imports below ...
